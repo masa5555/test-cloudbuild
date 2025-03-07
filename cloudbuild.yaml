@@ -9,5 +9,6 @@ steps:
       - --source=.
       - --trigger-http
       - --runtime=python312
+      - --no-allow-unauthenticated
 options:
   logging: "CLOUD_LOGGING_ONLY"
